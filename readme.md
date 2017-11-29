@@ -2,35 +2,46 @@
 
 Cet examen est  nécessaire à l'évaluation de votre aptitude à passer la certification et ses résultats sont demandés par l'institution l'organisant.
 
-Le but de cet examen est de vous faire répondre à un cahier des charges quant à la création d'une BDD pour une application web. Pour cet exercice, l'application en question permet de faire une recherche cinématographique/série selon plusieurs critères.
+Le but de cet examen est de vous faire répondre à un cahier des charges quant à la création d'une BDD pour une application web.
 
-Cet examen est à faire en deux étapes, une première modélisation entité/association puis la modélisation physique des données. 
+Pour cet exercice, l'application en question servira à la gestion du planning des concerts des Trans'musicales .
+
+Cet examen est à faire en deux étapes, une première modélisation entité/association puis la modélisation physique des données.
+
+## Temps imparti
+Vous avez 3 heures pour réaliser cette évaluation.
 
 ## Contexte
-La startup "Cineart" souhaite rivaliser les plateformes numériques actuelles telles que NETFLIX/Plex pour la création d'un media center national dedié au cinema indépendant français. 
 
-Chaque film référencé sur la plateforme affichera l'ensemble des acteurs principaux ainsi que les réalisateurs.
-Tout film disposera d'informations propres telles que son nom, son affiche, une date de sortie, un genre, un synopsis.
+Le festival a des soucis dernièrement avec son logiciel pour la gestion des concerts et a fait appel à vous. Ils aimeraient que vous fassiez un prototype pour un outil le remplaçant.
 
-Il sera possible de noter de 1 à 5 étoiles un film accompagné d'un avis (champ texte < 256 char).  Plusieurs avis existeront pour chaque film. 
-Il sera possible de définir de un à plusieurs "tags" pour chaque film.
 
-Il devra également être possible d'accéder aux informations propres des réalisateurs et/ou des acteurs. Les informations concernant ces personnes n'ont pas été définies, une veille concurentielle est à réaliser. 
+Une analyse a été réalisée par votre chef de projet et il a morcelé le tout en plusieurs sprints.
 
+Dans un premier temps, l'application devra juste pouvoir permettre la saisie des groupes.
+Et il vous demande d'en réaliser la modélisation de la base de données.
+
+Chaque groupe devra s'inscrire et saisir l'ensemble des musiciens.
+Un groupe se distinguera par un nom, une catégorie de musique, un pays d'origine, un email de contact, une ou plusieurs photos, une description, des instruments qui le composent et d'un tarif de prestation en euros.
+Un musicien peut appartenir à plusieurs groupes.
+Chaque musicien aura également sa propre fiche avec son nom et prénom, un descriptif ainsi qu'une liste des instruments qu'il sait jouer.
+Attention, certains groupes peuvent jouer des instruments, même s'il n'ont pas de musiciens!
+
+Le second sprint est déjà en train d'être planifié afin de réaliser la gestion des lieux et du planning des concerts.
 
 
 ## Production attendue
 
-Le rendu sera à faire sous la forme d'un document word dans lequel apparaîtra :
+Le rendu sera à faire sous la forme d'un document word dans lequel apparaîtra la modélisation du premier sprint:
 
 - Un dictionnaire de données
 - Schéma entité/association (à réaliser de façon manuscrite ou avec un outil)
 - Schéma physique de la base de données
 
-L'ensemble des données devra être stocké au sein d'une base de données relationnelle (modèle entité/Association). 
+L'ensemble des données devra être stocké au sein d'une base de données relationnelle (modèle entité/Association).
 Une fois cette modélisation réalisée, vous devez réaliser le **schéma physique des données** en suivant les principes du _modèle relationnel_. Ce document sera à incorporer au dossier initial.
 
-Selon le REAC, il vous est demandé que : 
+Selon le REAC, il vous est demandé que :
 
 - Le schéma entité association couvre les règles de gestion sur les données.
 - Le schéma respecte le formalisme du modèle entité/association.
